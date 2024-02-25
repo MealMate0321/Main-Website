@@ -1,0 +1,52 @@
+.order{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-grey);
+}
+.order a{
+    background-color: transparent;
+    border: 2px solid var(--yellow);
+    font-weight: bold;
+}
+
+.order .link-btn:hover{
+    background-color: var(--yellow);
+    color: var(--dark-grey);
+}
+h2,h3,p{
+    text-align: center;
+}
+.about{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.about div{
+    width: 40%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about p{
+    font-size: 14px;
+    color: gray;
+}
+.head{
+    font-size: 20px;
+    font-weight: bold;
+}
+.heading{
+    color: var(--green);
+    font-size: 2.5rem;
+}
+
+.about img{
+    width: 64px;
+}

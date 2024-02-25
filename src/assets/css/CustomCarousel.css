@@ -1,0 +1,21 @@
+.carousel img{
+  max-height: 90vh;
+}
+
+.carousel-caption {
+  background: rgba(78, 113, 98, 0.8);
+  color: white; 
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(78, 113, 98, 0.8);
+  color: white; 
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(78, 113, 98, 1); /* Hover background color for prev and next buttons */
+}
+
+
