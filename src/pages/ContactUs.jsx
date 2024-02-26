@@ -13,12 +13,12 @@ const ContactUs = () => {
         <div>
           <h2><FaPhone/></h2>
           <h5>PHONE NUMBER</h5>
-          <p>8803978932</p>
+          <p>8858850503</p>
         </div>
         <div>
           <h2><MdEmail/></h2>
           <h5>EMAIL</h5>
-          <p>mealmate@gmail.com</p>
+          <p>mealmate@meal-mate.in</p>
         </div>
         <div>
           <h2><FaLocationDot/></h2>
