@@ -23,9 +23,9 @@ const Footer = () => {
     <div className="social-media">
         <h3 className="title">Social Media</h3>
         <div className="social-links">
-            <div><FaInstagram/></div>
-            <div><FaWhatsapp/></div>
-            <div><FaFacebookF/></div>
+            <div><a href="https://www.instagram.com/__mealmate__/" target="_blank"><FaInstagram/></a></div>
+            <div><a href="https://wa.me/message/OPWWUDRP4THHD1" target="_blank"><FaWhatsapp/></a></div>
+            <div><a href="https://www.facebook.com/profile.php?id=61556527394197" target="_blank"><FaFacebookF/></a></div>
         </div>
     </div>
   </Wrapper>;

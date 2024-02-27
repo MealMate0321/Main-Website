@@ -89,6 +89,14 @@ const Wrapper = styled.div`
       animation-delay: 0.5s;
     }
   }
+  @media screen and (max-width: 768px) {
+    .para{
+      flex-direction: column;
+      p{
+        width: 98%;
+      }
+    }
+  }
 `;
 
 export default Offer;
