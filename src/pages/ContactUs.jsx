@@ -18,7 +18,7 @@ const ContactUs = () => {
         <div>
           <h2><MdEmail/></h2>
           <h5>EMAIL</h5>
-          <p>mealmate@meal-mate.in</p>
+          <p>contact-us@meal-mate.in</p>
         </div>
         <div>
           <h2><FaLocationDot/></h2>
@@ -36,7 +36,7 @@ const ContactUs = () => {
             <FormRow type="number" name="tel" placeholder="Enter your phone number number *"/>
             <textarea name="message" id="" rows="5" placeholder='Enter your message'></textarea>
             <button type="submit">Submit</button> */}
-          <button> <a href='https://forms.gle/G5bm7YR5p7d8U8vm8' target='_blank'>Click Here</a></button> 
+          <button> <a href='https://forms.gle/Z37xrgjRQ9NSvPWB8' target='_blank'>Click Here</a></button> 
          
         </div>
     </Wrapper>
