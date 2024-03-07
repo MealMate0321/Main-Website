@@ -69,9 +69,8 @@ const Wrapper = styled.div`
 
   .para {
     display: flex;
-
+    justify-content: center;
     p {
-        width: 48%;
       color: var(--light-bg);
       animation: 6s ${blinkZoom} 6s linear infinite alternate;
       margin-bottom: 10px;
