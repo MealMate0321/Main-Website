@@ -41,12 +41,8 @@ const Offer = () => {
   return (
     <Wrapper>
       <div className="para">
-        <p className="blink-zoom">For first 15 mates, 10% off on subscription plan</p>
-        <p className="blink-zoom">For next 20 mates, 8% off on subscription plan</p>
-      </div>
-      <div className="para">
-        <p className="blink-zoom">For first 15 mates, 8% off on non-subscriptions</p>
-        <p className="blink-zoom">For next 20 mates, 5% off on non-subscriptions</p>
+        <p className="blink-zoom">Refer us to your friends and family and get upto 8% off on your
+        subsription plan. 😇😇</p>
       </div>
     </Wrapper>
   );
