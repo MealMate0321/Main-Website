@@ -16,9 +16,9 @@ const Plans = () => {
       <div>
         <h3>Basic non-veg meal</h3>
         <h4>₹ 80/meal</h4>
-        <p>One month plan</p>
-        <p>One time basis - ₹2400</p>
-        <p>Two time basis - ₹4800</p>
+        <h4 style={{color:'var(--red)'}}>NOTE:</h4>
+        <p>★ Non-veg is available for dinner only.</p>
+        <p>★ Non-veg will not be delivered on Tuesday, Thursday,<br/> Saturday and on festival days</p>
       </div>
       
     </div>
@@ -26,11 +26,11 @@ const Plans = () => {
     <div className="row-plan">
         <div>
           <h3>Basic veg meal</h3>
-          <h4>₹ 75/meal</h4>
+          <h4>₹ 80/meal</h4>
         </div>
         <div>
           <h3>Basic non-veg meal</h3>
-          <h4>₹ 90/meal</h4>
+          <h4>₹ 95/meal</h4>
         </div>
     </div>
   </Wrapper>;

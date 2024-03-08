@@ -42,7 +42,7 @@ const Offer = () => {
     <Wrapper>
       <div className="para">
         <p className="blink-zoom">Refer us to your friends and family and get upto 8% off on your
-        subsription plan. 😇😇</p>
+        subsription plan.</p>
       </div>
     </Wrapper>
   );
