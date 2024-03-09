@@ -1,19 +1,22 @@
 import React from "react";
 import veg from "../assets/images/1.png"
-import nonveg from "../assets/images/2.png"
+import veg2 from "../assets/images/2.png"
 import styled from "styled-components";
 import cut from "../assets/images/cook3.png"
 
 const Menu = () => {
   return <Wrapper>
-    <div><img src={veg} alt="" /></div>
-    <div><img src={nonveg} alt="" /></div>
+    <div>
+      <h3>WEEK - 1</h3>
+      <img src={veg} alt="Week 1" /></div>
+<div> <h3>WEEK - 2</h3>
+  <img src={veg2} alt="Week 2" /></div>
+   
     <div style={{backgroundColor:'var(--light-bg'}}>
     <ul>
       <h3 style={{textAlign:'left'}}>Note:</h3>
         <li>Sweets also available in the meal - 5/per meal</li>
-        <li>The menu shows what food we'll have during the first week, just to give you an idea.</li>
-        <li>We also offer a complete non-vegetarian plan, with non-veg options available for both lunch and dinner.</li>
+        <li>The menu shows what food we'll have during the first and second week, just to give you an idea.</li>
       </ul>
     </div>
     <div>
