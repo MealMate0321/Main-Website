@@ -11,7 +11,7 @@ function Navigation() {
       <Container>
         <Navbar.Brand href="/">
         <img src={logo} alt="" style={{width: '3.5rem'}}/> &nbsp;
-          Meal Mate</Navbar.Brand>
+          Meal Mitra</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

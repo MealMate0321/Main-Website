@@ -14,7 +14,7 @@ const Landing = () => {
         <Link to="menu" className="link-btn">ORDER YOUR TIFFIN NOW</Link>
       </div>
       <div>
-        <h2 className="heading">WHY MEAL MATE..??</h2>
+        <h2 className="heading">WHY MEAL MITRA..??</h2>
         <p style={{fontWeight:'bold',color:'gray'}}>Learn more about us</p>
         <div className="about">
          <div>

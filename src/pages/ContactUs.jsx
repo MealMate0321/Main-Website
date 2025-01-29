@@ -18,7 +18,7 @@ const ContactUs = () => {
         <div>
           <h2><MdEmail/></h2>
           <h5>EMAIL</h5>
-          <p>contact-us@meal-mate.in</p>
+          <p>mitrameal7@gmail.com</p>
         </div>
         <div>
           <h2><FaLocationDot/></h2>

@@ -8,7 +8,7 @@ const Footer = () => {
   return <Wrapper>
     <div className="aboutus">
         <h3 className="title">About Us</h3>
-        <p>Welcome to Meal Mate, where we believe in delivering more than just food – we deliver comfort, 
+        <p>Welcome to Meal Mitra, where we believe in delivering more than just food – we deliver comfort, 
             convenience, and culinary delight right to your doorstep. With a passion for providing wholesome, 
             homemade meals, we strive to make every bite an experience to savor.
 </p>
