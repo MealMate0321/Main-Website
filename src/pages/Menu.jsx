@@ -1,15 +1,16 @@
 import React from "react";
-import veg from "../assets/images/1.png"
-import veg2 from "../assets/images/2.png"
+import veg from "../assets/images/veg.jpg"
+import veg2 from "../assets/images/non-veg.jpg"
 import styled from "styled-components";
 import cut from "../assets/images/cook3.png"
 
 const Menu = () => {
-  return <Wrapper>
+  return <>
+    <h2>Menu for 27/01/25 - 02/02/25</h2>
+    <Wrapper>
     <div>
-      <h3>WEEK - 1</h3>
       <img src={veg} alt="Week 1" /></div>
-<div> <h3>WEEK - 2</h3>
+<div>
   <img src={veg2} alt="Week 2" /></div>
    
     <div style={{backgroundColor:'var(--light-bg'}}>
@@ -23,6 +24,7 @@ const Menu = () => {
     <img src={cut} width="50%"/>
     </div>
   </Wrapper>;
+  </>
 };
 
 const Wrapper = styled.div`
