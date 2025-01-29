@@ -20,6 +20,9 @@ const Wrapper = styled.div`
                 margin: 10px;
                 text-align: center;
                 border-radius:var(--border-radius-2);
+                h2, h5,p{
+                    color: #ddd;
+                }
             }
         }
         .contact-form{

@@ -1,6 +1,6 @@
 import React from 'react'
 import Wrapper from '../assets/wrappers/Contact'
-import { Form } from 'react-router-dom'
+import { Form, Link } from 'react-router-dom'
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FormRow } from '../components';
@@ -36,7 +36,7 @@ const ContactUs = () => {
             <FormRow type="number" name="tel" placeholder="Enter your phone number number *"/>
             <textarea name="message" id="" rows="5" placeholder='Enter your message'></textarea>
             <button type="submit">Submit</button> */}
-          <button> <a href='https://forms.gle/Z37xrgjRQ9NSvPWB8' target='_blank'>Click Here</a></button> 
+          <button> <Link to='https://forms.gle/qm6TvrD9yGB1nufq5' target='_blank'>Click Here</Link></button> 
          
         </div>
     </Wrapper>
