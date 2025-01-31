@@ -6,7 +6,7 @@ import OrderBtn from "../components/OrderBtn";
 const HomeLayout = () => {
   return <>
   <Navbar/>
-  <Offer/>
+  {/* <Offer/> */}
   <Outlet/>
   <OrderBtn/>
   <Footer/>
