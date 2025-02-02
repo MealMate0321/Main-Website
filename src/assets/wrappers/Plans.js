@@ -78,6 +78,14 @@ const Wrapper = styled.div`
         padding: 10px;
         margin-top: 40px;
     }
+    @media screen and (max-width:768px) {
+        .row-plan{
+            flex-direction: column;
+            .plan{
+                width: 94%;
+            }
+        }
+    } 
 `
 
 export default Wrapper
