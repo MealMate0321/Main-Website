@@ -48,6 +48,7 @@ const Wrapper = styled.div`
         border: 1px solid black;
         width: 50%;
         margin: 20px auto;
+        padding: 20px;
         input{
             border: 1px solid black;
             border-radius: 4px;
@@ -84,6 +85,9 @@ const Wrapper = styled.div`
             .plan{
                 width: 94%;
             }
+        }
+        .price-calculator{
+            width: 90%;
         }
     } 
 `
